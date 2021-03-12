@@ -1,5 +1,5 @@
 # [**BuzzFeed News: Spies in the Sky**](https://www.buzzfeednews.com/article/peteraldhous/spies-in-the-skies#.djN0KpK6m)
-### An analysis of government surveillance planes being flown over the United States.
+### An analysis of government surveillance planes flown over the United States.
 ##### By Connor Hynes
 ----
 ### **Project Goal**
@@ -94,7 +94,7 @@ point occurred.
         ))
         feds <- bind_rows(feds,tmp)
     }
-
+    
 This beefy chunk of code comes from their own [documentation](https://buzzfeednews.github.io/2016-04-federal-surveillance-planes/analysis.html),
 showing how the read the CSV files the constructed. You can see all the
 different variables they used, including the latitude, longitude, and timestamp
@@ -175,7 +175,7 @@ what location the surveillance aircrafts are flying over but is not so detailed
 where it becomes cluttered. To contrast this light basemap, they chose two
 bright colors to represent their data. These colors are a bright orange and a
 deep blue. The map also determines the intensity of the line colors using a
-heatmap, where areas that have a high concentration of datapoints are
+heatmap, where areas that have a high concentration of data points are
 represented by brighter, less opaque version of the base color. This follows
 good visual design practices as it ensures that data is accurately represented,
 even when areas become crowded. Overall, the map is rather simple which does a
@@ -186,4 +186,14 @@ to understand.
 ---
 ### **Reflection**
 
-This project
+This project was put together with the intention of discussing the governments
+role in spying on its citizens. While there are of course needs for surveillance
+when it comes to threats of national security and crime, we as citizens want to
+ensure that our government is not turning this into a way of gathering massive
+information on and tracking its citizens. I am glad to see that some journalists
+are taking the time to collect data on these matters. Without proper checks and
+balances on these systems, they may one day become completely out of control, so
+the public must be aware of what is happening. As long as there are flight
+patterns such as these, with certain areas being profiled more than others, with
+significantly less surveillance time occurring during the weekend, it is clear
+that many of these flights are simply to spy an excuse to spy on citizens.
